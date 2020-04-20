@@ -12,14 +12,12 @@ def main():
             np.mean,
             np.median,
             np.std]
-        }).reset_index()
+        })
 
     # renomeamos as colunas
-    grouped.columns = ['estado_residencia', 'moda', 'media', 'mediana', 'desvio_padrao']
-    # como vamos transpor a tabela para facilitar a exportação, configuramos o índice como sendo o estado
-    grouped.set_index('estado_residencia', inplace=True)
+    grouped.columns = ['moda', 'media', 'mediana', 'desvio_padrao']
     # exportamos o resultado conforme esperado
-    grouped.transpose().to_json('submission.json')
+    grouped.to_json('submission.json', orient='index')
 
 if __name__ == '__main__':
     main()
