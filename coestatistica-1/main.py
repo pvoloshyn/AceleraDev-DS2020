@@ -1,15 +1,6 @@
 import pandas as pd
 import numpy as np
 
-def mode(s):
-    """
-    Retorna a moda de um Pandas Series
-
-    :params s: objeto do tipo pd.Series
-    :returns: moda
-    """
-    return s.value_counts().index[0]
-
 def main():
     # lê dataframe e coloca RowNumber como índice
     df = pd.read_csv('desafio1.csv', index_col='RowNumber')
@@ -17,7 +8,7 @@ def main():
     # faz os devidos agrupamentos pelo estado
     grouped = df.groupby('estado_residencia').agg(
         {'pontuacao_credito': [
-            mode,
+            pd.Series.mode,
             np.mean,
             np.median,
             np.std]
