@@ -11,3 +11,6 @@ Repositório do curso da Codenation com material, desafios e projetos.
 ## Semana 3 (coestatistica-1)
 * Continuação à exploração de dados.
 * Introdução a estatísticas básicas nas features.
+
+## Semana 4 (data-science-1)
+* Introdução à probabilidades, distribuições e funções PDF e CDF.
