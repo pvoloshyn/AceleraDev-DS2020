@@ -14,3 +14,7 @@ Repositório do curso da Codenation com material, desafios e projetos.
 
 ## Semana 4 (data-science-1)
 * Introdução à probabilidades, distribuições e funções PDF e CDF.
+
+## Semana 5 (data-science-2)
+* Introdução ao pensamento estatístico e testes de hipóteses
+* Testes de normalidade e testes em amostras de uma mesma população
