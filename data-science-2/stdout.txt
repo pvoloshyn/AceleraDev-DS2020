@@ -1,0 +1,28 @@
+============================= test session starts =============================
+platform win32 -- Python 3.7.7, pytest-4.6.2, py-1.8.0, pluggy-0.12.0 -- C:\dados\Python\anaconda3\envs\aceleradev_ds\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\pieter.voloshyn\codenation\data-science-2
+collecting ... collected 7 items
+
+test_submit.py::test_q1 PASSED                                           [ 14%]
+test_submit.py::test_q2 PASSED                                           [ 28%]
+test_submit.py::test_q3 PASSED                                           [ 42%]
+test_submit.py::test_q4 PASSED                                           [ 57%]
+test_submit.py::test_q5 PASSED                                           [ 71%]
+test_submit.py::test_q6 PASSED                                           [ 85%]
+test_submit.py::test_q7 PASSED                                           [100%]
+
+============================== warnings summary ===============================
+C:\dados\Python\anaconda3\envs\aceleradev_ds\lib\site-packages\matplotlib\backend_bases.py:57
+C:\dados\Python\anaconda3\envs\aceleradev_ds\lib\site-packages\matplotlib\backend_bases.py:57
+  C:\dados\Python\anaconda3\envs\aceleradev_ds\lib\site-packages\matplotlib\backend_bases.py:57: DeprecationWarning: PILLOW_VERSION is deprecated and will be removed in a future release. Use __version__ instead.
+    from PIL import PILLOW_VERSION
+
+C:\dados\Python\anaconda3\envs\aceleradev_ds\lib\site-packages\ipywidgets\widgets\widget_selection.py:9
+C:\dados\Python\anaconda3\envs\aceleradev_ds\lib\site-packages\ipywidgets\widgets\widget_selection.py:9
+  C:\dados\Python\anaconda3\envs\aceleradev_ds\lib\site-packages\ipywidgets\widgets\widget_selection.py:9: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3,and in 3.9 it will stop working
+    from collections import Mapping, Iterable
+
+-- Docs: https://docs.pytest.org/en/latest/warnings.html
+- generated xml file: C:\Users\pieter.voloshyn\codenation\data-science-2\output.xml -
+==================== 7 passed, 4 warnings in 33.52 seconds ====================
