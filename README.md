@@ -18,3 +18,7 @@ Repositório do curso da Codenation com material, desafios e projetos.
 ## Semana 5 (data-science-2)
 * Introdução ao pensamento estatístico e testes de hipóteses
 * Testes de normalidade e testes em amostras de uma mesma população
+
+## Semana 6 (data-science-3)
+* Introdução à redução de dimensionalidade com PCA
+* Técnicas de seleção de features mais relevantes
