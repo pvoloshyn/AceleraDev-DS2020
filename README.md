@@ -25,3 +25,6 @@ Repositório do curso da Codenation com material, desafios e projetos.
 
 ## Semana 7 (data-science-4)
 * Introdução à feature engineering
+
+## Semana 8 (enem-2)
+* Introdução à algoritmos de regressão
