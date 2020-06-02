@@ -28,3 +28,6 @@ Repositório do curso da Codenation com material, desafios e projetos.
 
 ## Semana 8 (enem-2)
 * Introdução à algoritmos de regressão
+
+## Semana 9 (enem-4)
+* Introdução à algoritmos de classificação
