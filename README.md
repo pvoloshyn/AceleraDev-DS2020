@@ -31,3 +31,6 @@ Repositório do curso da Codenation com material, desafios e projetos.
 
 ## Semana 9 (enem-4)
 * Introdução à algoritmos de classificação
+
+## Semana 10 (projeto)
+* Projeto prático (esse foi treta)
